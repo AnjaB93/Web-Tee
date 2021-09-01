@@ -25,7 +25,7 @@ const routes = [
     {
         path: '**',
         component: _blog_component__WEBPACK_IMPORTED_MODULE_1__["BlogComponent"],
-    }
+    },
 ];
 class BlogRoutingModule {
 }
