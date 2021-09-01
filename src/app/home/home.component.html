@@ -1,0 +1,16 @@
+<p>home works!</p>
+<ul>
+  <li *ngFor="let page of links$ | async">
+    <!-- <a href="{{ page.route }}">{{ page.route }}</a>
+    {{ page.arbitraryValue }}
+    <span *ngFor="let arrayItem of page.arbitraryArray">
+      {{ arrayItem }}
+    </span> -->
+    <section class="container-box" [routerLink]="page.route">
+      {{ page.arbitraryValue }}
+      <span *ngFor="let arrayItem of page.arbitraryArray">
+        {{ arrayItem }}</span
+      >
+    </section>
+  </li>
+</ul>
