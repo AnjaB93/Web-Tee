@@ -1,11 +1,30 @@
-.container-box {
+.global {
+  box-sizing: border-box;
+}
+.header {
+  width: 90%;
+  margin: 5%;
+  flex: 1;
+  text-align: left;
+}
+h1 {
+  color: rgb(116, 116, 116);
+  font-size: 3rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+h2 {
+  color: rgb(116, 116, 116);
+  font-size: 2rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 50;
+}
+.container {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 2px 4px rgb(181, 181, 181);
-  z-index: 2;
-  position: relative;
-  flex: 0 1 32%;
-  margin: 0.66%;
-  padding: 1rem;
-  max-width: 100%;
-  word-break: break-word;
+  display: flex;
+  width: 90%;
+  margin: 5%;
+  margin-top: 5%;
+  flex-flow: row wrap;
 }

@@ -5,7 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.css"><style>
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LnNjc3MifQ== */</style><script charset="utf-8" src="home-home-module.js"></script><style>.container-box[_ngcontent-aoi-c18] {
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LnNjc3MifQ== */</style><script charset="utf-8" src="home-home-module.js"></script><style>.global[_ngcontent-ixp-c18] {
+  box-sizing: border-box;
+}
+
+.header[_ngcontent-ixp-c18] {
+  width: 90%;
+  margin: 5%;
+  flex: 1;
+  text-align: left;
+}
+
+h1[_ngcontent-ixp-c18] {
+  color: #747474;
+  font-size: 3rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+h2[_ngcontent-ixp-c18] {
+  color: #747474;
+  font-size: 2rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 50;
+}
+
+.container[_ngcontent-ixp-c18] {
+  background-color: white;
+  display: flex;
+  width: 90%;
+  margin: 5%;
+  margin-top: 5%;
+  flex-flow: row wrap;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBQTtBQUNGOztBQUNBO0VBQ0UsVUFBQTtFQUNBLFVBQUE7RUFDQSxPQUFBO0VBQ0EsZ0JBQUE7QUFFRjs7QUFBQTtFQUNFLGNBQUE7RUFDQSxlQUFBO0VBQ0EsK0JBQUE7RUFDQSxnQkFBQTtFQUNBLHdCQUFBO0FBR0Y7O0FBREE7RUFDRSxjQUFBO0VBQ0EsZUFBQTtFQUNBLCtCQUFBO0VBQ0EsZUFBQTtBQUlGOztBQUZBO0VBQ0UsdUJBQUE7RUFDQSxhQUFBO0VBQ0EsVUFBQTtFQUNBLFVBQUE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7QUFLRiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmdsb2JhbCB7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG59XG4uaGVhZGVyIHtcbiAgd2lkdGg6IDkwJTtcbiAgbWFyZ2luOiA1JTtcbiAgZmxleDogMTtcbiAgdGV4dC1hbGlnbjogbGVmdDtcbn1cbmgxIHtcbiAgY29sb3I6IHJnYigxMTYsIDExNiwgMTE2KTtcbiAgZm9udC1zaXplOiAzcmVtO1xuICBmb250LWZhbWlseTogUm9ib3RvLCBzYW5zLXNlcmlmO1xuICBmb250LXdlaWdodDogNDAwO1xuICBmb250LXZhcmlhbnQ6IHNtYWxsLWNhcHM7XG59XG5oMiB7XG4gIGNvbG9yOiByZ2IoMTE2LCAxMTYsIDExNik7XG4gIGZvbnQtc2l6ZTogMnJlbTtcbiAgZm9udC1mYW1pbHk6IFJvYm90bywgc2Fucy1zZXJpZjtcbiAgZm9udC13ZWlnaHQ6IDUwO1xufVxuLmNvbnRhaW5lciB7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyNTUsIDI1NSwgMjU1KTtcbiAgZGlzcGxheTogZmxleDtcbiAgd2lkdGg6IDkwJTtcbiAgbWFyZ2luOiA1JTtcbiAgbWFyZ2luLXRvcDogNSU7XG4gIGZsZXgtZmxvdzogcm93IHdyYXA7XG59XG4iXX0= */</style><style>.container-box[_ngcontent-ixp-c19] {
   background-color: white;
   box-shadow: 0 2px 4px #b5b5b5;
   z-index: 2;
@@ -13,17 +47,100 @@
   flex: 0 1 32%;
   margin: 0.66%;
   padding: 1rem;
-  max-width: 100%;
+  max-width: 80%;
   word-break: break-word;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx1QkFBQTtFQUNBLDZCQUFBO0VBQ0EsVUFBQTtFQUNBLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLGFBQUE7RUFDQSxhQUFBO0VBQ0EsZUFBQTtFQUNBLHNCQUFBO0FBQ0YiLCJmaWxlIjoiaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXItYm94IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAyNTUpO1xuICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiKDE4MSwgMTgxLCAxODEpO1xuICB6LWluZGV4OiAyO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGZsZXg6IDAgMSAzMiU7XG4gIG1hcmdpbjogMC42NiU7XG4gIHBhZGRpbmc6IDFyZW07XG4gIG1heC13aWR0aDogMTAwJTtcbiAgd29yZC1icmVhazogYnJlYWstd29yZDtcbn1cbiJdfQ== */</style><style>
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJibG9nLWNhcmQuY29tcG9uZW50LnNjc3MifQ== */</style><script>window['ScullyIO']='generated';</script></head>
+
+.container-box[_ngcontent-ixp-c19]:hover {
+  background-color: #4eacb392;
+  color: black;
+}
+
+.ribbon_label[_ngcontent-ixp-c19] {
+  
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+}
+
+.ribbon_Frontend[_ngcontent-ixp-c19] {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  padding: 4px 10px;
+  background: #4eacb3;
+  box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ribbon_Frontend[_ngcontent-ixp-c19]:before, .ribbon_Frontend[_ngcontent-ixp-c19]:after {
+  content: "";
+  position: absolute;
+}
+
+.ribbon_Frontend[_ngcontent-ixp-c19]:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+
+.ribbon_Frontend[_ngcontent-ixp-c19]:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: lightblue;
+  border-radius: 5px 0 0 5px;
+}
+
+.ribbon_Backend[_ngcontent-ixp-c19] {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  padding: 4px 10px;
+  background: #b3964e;
+  box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ribbon_Backend[_ngcontent-ixp-c19]:before, .ribbon_Backend[_ngcontent-ixp-c19]:after {
+  content: "";
+  position: absolute;
+}
+
+.ribbon_Backend[_ngcontent-ixp-c19]:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+
+.ribbon_Backend[_ngcontent-ixp-c19]:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: #d2b97c;
+  border-radius: 5px 0 0 5px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2Jsb2ctY2FyZC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHVCQUFBO0VBQ0EsNkJBQUE7RUFDQSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxhQUFBO0VBQ0EsYUFBQTtFQUNBLGFBQUE7RUFDQSxjQUFBO0VBQ0Esc0JBQUE7QUFDRjs7QUFFQTtFQUNFLDJCQUFBO0VBQ0EsWUFBQTtBQUNGOztBQUVBO0VBQ0U7O3VCQUFBO0VBR0EseUJBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtBQUNGOztBQUNBO0VBQ0Usa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSwyQ0FBQTtBQUVGOztBQUFBOztFQUVFLFdBQUE7RUFDQSxrQkFBQTtBQUdGOztBQURBO0VBQ0UsVUFBQTtFQUNBLFlBQUE7RUFDQSxNQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7RUFDQSwwQkFBQTtBQUlGOztBQUZBO0VBQ0UsVUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBO0VBQ0EsMEJBQUE7QUFLRjs7QUFIQTtFQUNFLGtCQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0VBQ0EsMkNBQUE7QUFNRjs7QUFKQTs7RUFFRSxXQUFBO0VBQ0Esa0JBQUE7QUFPRjs7QUFMQTtFQUNFLFVBQUE7RUFDQSxZQUFBO0VBQ0EsTUFBQTtFQUNBLFlBQUE7RUFDQSxnQkFBQTtFQUNBLG1CQUFBO0VBQ0EsMEJBQUE7QUFRRjs7QUFOQTtFQUNFLFVBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxtQkFBQTtFQUNBLDBCQUFBO0FBU0YiLCJmaWxlIjoiYmxvZy1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRhaW5lci1ib3gge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LCAyNTUsIDI1NSk7XG4gIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2IoMTgxLCAxODEsIDE4MSk7XG4gIHotaW5kZXg6IDI7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZmxleDogMCAxIDMyJTtcbiAgbWFyZ2luOiAwLjY2JTtcbiAgcGFkZGluZzogMXJlbTtcbiAgbWF4LXdpZHRoOiA4MCU7XG4gIHdvcmQtYnJlYWs6IGJyZWFrLXdvcmQ7XG59XG5cbi5jb250YWluZXItYm94OmhvdmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzRlYWNiMzkyO1xuICBjb2xvcjogcmdiKDAsIDAsIDApO1xufVxuXG4ucmliYm9uX2xhYmVsIHtcbiAgLyogaGVpZ2h0OiAxODhweDtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBtYXJnaW4tYm90dG9tOiAzMHB4OyovXG4gIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgY29sb3I6IHdoaXRlO1xufVxuLnJpYmJvbl9Gcm9udGVuZCB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiA4cHg7XG4gIGxlZnQ6IDBweDtcbiAgcGFkZGluZzogNHB4IDEwcHg7XG4gIGJhY2tncm91bmQ6ICM0ZWFjYjM7XG4gIGJveC1zaGFkb3c6IC0xcHggMnB4IDNweCByZ2JhKDAsIDAsIDAsIDAuMyk7XG59XG4ucmliYm9uX0Zyb250ZW5kOmJlZm9yZSxcbi5yaWJib25fRnJvbnRlbmQ6YWZ0ZXIge1xuICBjb250ZW50OiBcIlwiO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG59XG4ucmliYm9uX0Zyb250ZW5kOmJlZm9yZSB7XG4gIHdpZHRoOiA3cHg7XG4gIGhlaWdodDogMTAwJTtcbiAgdG9wOiAwO1xuICBsZWZ0OiAtNi41cHg7XG4gIHBhZGRpbmc6IDAgMCA3cHg7XG4gIGJhY2tncm91bmQ6IGluaGVyaXQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweCAwIDAgNXB4O1xufVxuLnJpYmJvbl9Gcm9udGVuZDphZnRlciB7XG4gIHdpZHRoOiA1cHg7XG4gIGhlaWdodDogNXB4O1xuICBib3R0b206IC01cHg7XG4gIGxlZnQ6IC00LjVweDtcbiAgYmFja2dyb3VuZDogbGlnaHRibHVlO1xuICBib3JkZXItcmFkaXVzOiA1cHggMCAwIDVweDtcbn1cbi5yaWJib25fQmFja2VuZCB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiA4cHg7XG4gIGxlZnQ6IDBweDtcbiAgcGFkZGluZzogNHB4IDEwcHg7XG4gIGJhY2tncm91bmQ6ICNiMzk2NGU7XG4gIGJveC1zaGFkb3c6IC0xcHggMnB4IDNweCByZ2JhKDAsIDAsIDAsIDAuMyk7XG59XG4ucmliYm9uX0JhY2tlbmQ6YmVmb3JlLFxuLnJpYmJvbl9CYWNrZW5kOmFmdGVyIHtcbiAgY29udGVudDogXCJcIjtcbiAgcG9zaXRpb246IGFic29sdXRlO1xufVxuLnJpYmJvbl9CYWNrZW5kOmJlZm9yZSB7XG4gIHdpZHRoOiA3cHg7XG4gIGhlaWdodDogMTAwJTtcbiAgdG9wOiAwO1xuICBsZWZ0OiAtNi41cHg7XG4gIHBhZGRpbmc6IDAgMCA3cHg7XG4gIGJhY2tncm91bmQ6IGluaGVyaXQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweCAwIDAgNXB4O1xufVxuLnJpYmJvbl9CYWNrZW5kOmFmdGVyIHtcbiAgd2lkdGg6IDVweDtcbiAgaGVpZ2h0OiA1cHg7XG4gIGJvdHRvbTogLTVweDtcbiAgbGVmdDogLTQuNXB4O1xuICBiYWNrZ3JvdW5kOiAjZDJiOTdjO1xuICBib3JkZXItcmFkaXVzOiA1cHggMCAwIDVweDtcbn1cbiJdfQ== */</style><script>window['ScullyIO']='generated';</script></head>
 <body scully-version="1.1.1">
-  <app-root _nghost-aoi-c16="" ng-version="11.2.14"><router-outlet _ngcontent-aoi-c16=""></router-outlet><app-home _nghost-aoi-c18=""><p _ngcontent-aoi-c18="">home works!</p><ul _ngcontent-aoi-c18=""><li _ngcontent-aoi-c18=""><app-blog-card _ngcontent-aoi-c18="" _nghost-aoi-c19="" tabindex="0" ng-reflect-router-link="/blog/test" ng-reflect-page="[object Object]"><p _ngcontent-aoi-c19="">blog-card works!</p><div _ngcontent-aoi-c19="" class="container-box"><div _ngcontent-aoi-c19="" class="ribbon_label"><span _ngcontent-aoi-c19="" class="ribbon">Frontend</span></div><h3 _ngcontent-aoi-c19="">blog title</h3></div></app-blog-card><section _ngcontent-aoi-c18="" class="container-box" tabindex="0" ng-reflect-router-link="/blog/test"> single value <span _ngcontent-aoi-c18=""> first item</span><span _ngcontent-aoi-c18=""> second item</span><!--bindings={
-  "ng-reflect-ng-for-of": "first item,second item"
-}--></section></li><li _ngcontent-aoi-c18=""><app-blog-card _ngcontent-aoi-c18="" _nghost-aoi-c19="" tabindex="0" ng-reflect-router-link="/blog/responsive-design-vs.-ad" ng-reflect-page="[object Object]"><p _ngcontent-aoi-c19="">blog-card works!</p><div _ngcontent-aoi-c19="" class="container-box"><div _ngcontent-aoi-c19="" class="ribbon_label"><span _ngcontent-aoi-c19="" class="ribbon">Frontend</span></div><h3 _ngcontent-aoi-c19="">Responsive Design vs. Adaptive Design</h3></div></app-blog-card><section _ngcontent-aoi-c18="" class="container-box" tabindex="0" ng-reflect-router-link="/blog/responsive-design-vs.-ad">  <!--bindings={}--></section></li><li _ngcontent-aoi-c18=""><app-blog-card _ngcontent-aoi-c18="" _nghost-aoi-c19="" tabindex="0" ng-reflect-router-link="/home" ng-reflect-page="[object Object]"><p _ngcontent-aoi-c19="">blog-card works!</p><div _ngcontent-aoi-c19="" class="container-box"><div _ngcontent-aoi-c19="" class="ribbon_label"><span _ngcontent-aoi-c19="" class="ribbon">Frontend</span></div><h3 _ngcontent-aoi-c19="">Leider kein Titel</h3></div></app-blog-card><section _ngcontent-aoi-c18="" class="container-box" tabindex="0" ng-reflect-router-link="/home">  <!--bindings={}--></section></li><li _ngcontent-aoi-c18=""><app-blog-card _ngcontent-aoi-c18="" _nghost-aoi-c19="" tabindex="0" ng-reflect-router-link="/" ng-reflect-page="[object Object]"><p _ngcontent-aoi-c19="">blog-card works!</p><div _ngcontent-aoi-c19="" class="container-box"><div _ngcontent-aoi-c19="" class="ribbon_label"><span _ngcontent-aoi-c19="" class="ribbon">Frontend</span></div><h3 _ngcontent-aoi-c19="">Leider kein Titel</h3></div></app-blog-card><section _ngcontent-aoi-c18="" class="container-box" tabindex="0" ng-reflect-router-link="/">  <!--bindings={}--></section></li><!--bindings={
+  <app-root _nghost-ixp-c16="" ng-version="11.2.14"><router-outlet _ngcontent-ixp-c16=""></router-outlet><app-home _nghost-ixp-c18=""><div _ngcontent-ixp-c18="" class="header"><h1 _ngcontent-ixp-c18="">Web Themen &amp; Technologien</h1><h2 _ngcontent-ixp-c18="">Web Themen</h2></div><div _ngcontent-ixp-c18="" class="container"><app-blog-card _ngcontent-ixp-c18="" _nghost-ixp-c19="" tabindex="0" ng-reflect-router-link="/blog/01_responsive-design-vs." ng-reflect-page="[object Object]" ng-reflect-has-label="true"><div _ngcontent-ixp-c19="" class="container-box"><div _ngcontent-ixp-c19="" class="ribbon_label"><span _ngcontent-ixp-c19="" class="ribbon_Backend">Backend</span></div><!--ng-container--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><h3 _ngcontent-ixp-c19="">Responsive Design vs. Adaptive Design</h3><p _ngcontent-ixp-c19=""> Was ist Responsive Design &amp; welchen Unterschied gibt es zum Adaptive Design?</p></div></app-blog-card><app-blog-card _ngcontent-ixp-c18="" _nghost-ixp-c19="" tabindex="0" ng-reflect-router-link="/blog/02_single-pape-applicati" ng-reflect-page="[object Object]" ng-reflect-has-label="true"><div _ngcontent-ixp-c19="" class="container-box"><div _ngcontent-ixp-c19="" class="ribbon_label"><span _ngcontent-ixp-c19="" class="ribbon_Frontend">Frontend</span></div><!--ng-container--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><h3 _ngcontent-ixp-c19="">Single Page Applications</h3><p _ngcontent-ixp-c19=""> Was ist eine Single Page Application &amp; was sind ihr Vor- und Nachteile?</p></div></app-blog-card><app-blog-card _ngcontent-ixp-c18="" _nghost-ixp-c19="" tabindex="0" ng-reflect-router-link="/blog/03_progressive-web-apps" ng-reflect-page="[object Object]" ng-reflect-has-label="false"><div _ngcontent-ixp-c19="" class="container-box"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><h3 _ngcontent-ixp-c19="">Progressive Web Apps</h3><p _ngcontent-ixp-c19="">Was ist eine Progressive Web App &amp; was ist der Unterschied zu normalen Web-Apps?</p></div></app-blog-card><!--bindings={
   "ng-reflect-ng-for-of": "[object Object],[object Object"
-}--></ul></app-home><!--container--></app-root>
+}--><!--ng-container--><!--bindings={
+  "ng-reflect-ng-if": "[object Object],[object Object"
+}--><!--container--></div></app-home><!--container--></app-root>
 <script id="ScullyIO-transfer-state"></script><script src="runtime.js" defer=""></script><script src="polyfills.js" defer=""></script><script src="vendor.js" defer=""></script><script src="main.js" defer=""></script>
 
 </body></html>

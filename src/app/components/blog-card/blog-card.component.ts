@@ -10,4 +10,5 @@ import { HomeComponent } from 'src/app/home/home.component';
 export class BlogCardComponent {
   //Falsch hier weiter ansetzen
   @Input() page: ScullyRoute | undefined;
+  @Input() hasLabel= false;
 }

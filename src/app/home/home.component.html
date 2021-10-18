@@ -1,18 +1,38 @@
-<p>home works!</p>
-<ul>
-  <li *ngFor="let page of links$ | async">
-    <app-blog-card [routerLink]="page.route" [page]="page"></app-blog-card>
-    <!-- <a href="{{ page.route }}">{{ page.route }}</a>
+<div class="header">
+  <h1>Web Themen & Technologien</h1>
+  <h2>Web Themen</h2>
+</div>
+
+<div class="container">
+  <!-- <a *ngFor="let page of links$ | async">
+    <div class="ribbon_label">
+      <span class="ribbon_{{ page.label }}">{{ page.label }}</span>
+    </div>
+    <div [routerLink]="page.route">
+      <h2>{{ page.title }}</h2>
+      <b>{{ page.description }}</b>
+    </div>
+  </a> -->
+  <ng-container *ngIf="links$ | async; let links; else: loadingTemplate">
+    <app-blog-card
+      *ngFor="let page of links"
+      [routerLink]="page.route"
+      [page]="page"
+      [hasLabel]="page.label ? true : false"
+    ></app-blog-card>
+  </ng-container>
+
+  <ng-template #loadingTemplate>Loading...</ng-template>
+  <!-- <a href="{{ page.route }}">{{ page.route }}</a>
     {{ page.arbitraryValue }}
     <span *ngFor="let arrayItem of page.arbitraryArray">
       {{ arrayItem }}
     </span> -->
 
-    <section class="container-box" [routerLink]="page.route">
-      {{ page.arbitraryValue }}
-      <span *ngFor="let arrayItem of page.arbitraryArray">
+  <!-- <section class="container-box" [routerLink]="page.route">
+      {{ page.description }}
+      <!-- <span *ngFor="let arrayItem of page.arbitraryArray">
         {{ arrayItem }}</span
-      >
-    </section>
-  </li>
-</ul>
+      > 
+    </section> -->
+</div>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ScullyRoutesService, ScullyRoute } from '@scullyio/ng-lib';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
@@ -14,8 +15,15 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     // debug current pages
-    this.links$.subscribe((links) => {
-      console.log(links);
-    });
+    // this.links$.subscribe((links) => {
+    //   console.log(links);
+    // });
+    this.links$ = this.scully.available$.pipe(
+      map((routeList) => {
+        return routeList.filter((route: ScullyRoute) =>
+          route.route.startsWith(`/blog/`)
+        );
+      })
+    );
   }
 }
