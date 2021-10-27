@@ -38,6 +38,18 @@ h3 {
   font-family: Roboto, sans-serif;
 }
 
+// h3::before {
+//   content: "";
+//   position: absolute;
+//   left: 8%;
+//   bottom: 6px;
+//   width: 150px;
+//   height: 14px;
+//   transform: skew(-12deg) translateX(-50%);
+//   background: #76e8f0ad;
+//   z-index: -1;
+// }
+
 p {
   color: rgb(50, 50, 50);
   font-size: 1rem;
@@ -49,4 +61,30 @@ img {
   max-width: 100%;
   padding-top: 1rem;
   margin-bottom: 1rem;
+}
+
+li p {
+  color: #4eacb3;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 0.8rem;
+  list-style: none;
+}
+
+li {
+  color: rgb(50, 50, 50);
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: #4eacb3;
+}
+a:hover {
+  background-color: #4eacb392;
+  color: white;
 }

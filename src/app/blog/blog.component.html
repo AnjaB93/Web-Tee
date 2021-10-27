@@ -1,7 +1,9 @@
 <!-- This is where Scully will inject the static HTML -->
+<h1>{{ page?.title || "Leider kein Titel" }}</h1>
+<h2>{{ page?.description }}</h2>
 <div class="unterseiten_container">
   <div class="unterseiten_container-box">
-    <scully-content></scully-content>
+    <scully-content> </scully-content>
   </div>
   <div>
     <app-back-button></app-back-button>

@@ -15,6 +15,7 @@
   </a> -->
   <ng-container *ngIf="links$ | async; let links; else: loadingTemplate">
     <app-blog-card
+      class="container-box"
       *ngFor="let page of links"
       [routerLink]="page.route"
       [page]="page"
